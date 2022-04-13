@@ -5,6 +5,7 @@ import NoteEditor from './note-editor';
 import Dev from './dev';
 import Loading from './loading';
 import TriggerLoading from './trigger-loading';
+import Settings from './settings';
 
 export const screenkeys = [
     'home',
@@ -13,7 +14,8 @@ export const screenkeys = [
     'create-note',
     'dev',
     'loading',
-    'trigger-loading'
+    'trigger-loading',
+    'settings'
 ];
 
 export const screencomponents = [
@@ -23,7 +25,8 @@ export const screencomponents = [
     CreateNote,
     Dev,
     Loading,
-    TriggerLoading
+    TriggerLoading,
+    Settings
 ];
 
 export default screenkeys.map((skey, i) => {

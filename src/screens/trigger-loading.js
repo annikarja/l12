@@ -2,8 +2,7 @@ import React from 'react';
 import {
     ActivityIndicator,
     Button,
-    View,
-    Text
+    View
 }  from 'react-native';
 
 export class TriggerLoading extends React.Component {

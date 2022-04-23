@@ -6,6 +6,7 @@ import Dev from './dev';
 import Loading from './loading';
 import TriggerLoading from './trigger-loading';
 import Settings from './settings';
+import Sensor from './sensor';
 
 export const screenkeys = [
     'home',
@@ -15,6 +16,7 @@ export const screenkeys = [
     'dev',
     'loading',
     'trigger-loading',
+    'sensor',
     'settings'
 ];
 
@@ -26,6 +28,7 @@ export const screencomponents = [
     Dev,
     Loading,
     TriggerLoading,
+    Sensor,
     Settings
 ];
 
